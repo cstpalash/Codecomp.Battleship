@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Team\" />
+    <None Remove="Views\Rules\" />
+    <None Remove="Views\Register\" />
+    <None Remove="Views\Leaderboard\" />
+    <None Remove="Views\Api\" />
+    <None Remove="Views\Faq\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Team\" />
+    <Folder Include="Views\Rules\" />
+    <Folder Include="Views\Register\" />
+    <Folder Include="Views\Leaderboard\" />
+    <Folder Include="Views\Api\" />
+    <Folder Include="Views\Faq\" />
+  </ItemGroup>
+</Project>
